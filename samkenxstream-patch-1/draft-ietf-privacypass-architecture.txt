@@ -5,10 +5,10 @@
 Network Working Group                                        A. Davidson
 Internet-Draft                                                       LIP
 Intended status: Informational                                J. Iyengar
-Expires: 19 January 2023                                          Fastly
+Expires: 2 March 2024                                             Fastly
                                                               C. A. Wood
                                                               Cloudflare
-                                                            18 July 2022
+                                                          30 August 2023
 
 
                   Privacy Pass Architectural Framework
@@ -37,11 +37,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 January 2023.
+   This Internet-Draft will expire on 2 March 2024.
 
 Copyright Notice
 
-   Copyright (c) 2022 IETF Trust and the persons identified as the
+   Copyright (c) 2023 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -980,9 +980,9 @@ Table of Contents
    [CONSISTENCY]
               Davidson, A., Finkel, M., Thomson, M., and C. A. Wood,
               "Key Consistency and Discovery", Work in Progress,
-              Internet-Draft, draft-wood-key-consistency-02, 4 March
+              Internet-Draft, draft-wood-key-consistency-03, 17 August
               2022, <https://datatracker.ietf.org/doc/html/draft-wood-
-              key-consistency-02>.
+              key-consistency-03>.
 
    [HIJK21]   Huang, S., Iyengar, S., Jeyaraman, S., Kushwah, S., Lee,
               C. K., Luo, Z., Mohassel, P., Raghunathan, A., Shaikh, S.,
@@ -993,16 +993,17 @@ Table of Contents
               Scale_final.pdf>.
 
    [I-D.ietf-privacypass-protocol]
-              Celi, S., Davidson, A., Faz-Hernandez, A., Valdez, S., and
-              C. A. Wood, "Privacy Pass Issuance Protocol", Work in
-              Progress, Internet-Draft, draft-ietf-privacypass-protocol-
-              06, 6 July 2022, <https://datatracker.ietf.org/doc/html/
-              draft-ietf-privacypass-protocol-06>.
+              Celi, S., Davidson, A., Valdez, S., and C. A. Wood,
+              "Privacy Pass Issuance Protocol", Work in Progress,
+              Internet-Draft, draft-ietf-privacypass-protocol-12, 16
+              August 2023, <https://datatracker.ietf.org/doc/html/draft-
+              ietf-privacypass-protocol-12>.
 
    [KLOR20]   Kreuter, B., Lepoint, T., Orrù, M., and M. Raykova,
-              "Anonymous Tokens with Private Metadata Bit", Advances in
-              Cryptology - CRYPTO 2020 pp. 308-336,
-              DOI 10.1007/978-3-030-56784-2_11, 2020,
+              "Anonymous Tokens with Private Metadata Bit", Springer
+              International Publishing, Advances in Cryptology – CRYPTO
+              2020 pp. 308-336, DOI 10.1007/978-3-030-56784-2_11,
+              ISBN ["9783030567835", "9783030567842"], 2020,
               <https://doi.org/10.1007/978-3-030-56784-2_11>.
 
    [PPEXT]    "Privacy Pass Browser Extension", n.d.,

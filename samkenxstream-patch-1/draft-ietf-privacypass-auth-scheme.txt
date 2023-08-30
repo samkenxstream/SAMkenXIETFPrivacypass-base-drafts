@@ -5,10 +5,10 @@
 Network Working Group                                           T. Pauly
 Internet-Draft                                                Apple Inc.
 Intended status: Standards Track                               S. Valdez
-Expires: 19 January 2023                                      Google LLC
+Expires: 2 March 2024                                         Google LLC
                                                               C. A. Wood
                                                               Cloudflare
-                                                            18 July 2022
+                                                          30 August 2023
 
 
               The Privacy Pass HTTP Authentication Scheme
@@ -36,11 +36,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 19 January 2023.
+   This Internet-Draft will expire on 2 March 2024.
 
 Copyright Notice
 
-   Copyright (c) 2022 IETF Trust and the persons identified as the
+   Copyright (c) 2023 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -533,61 +533,61 @@ Table of Contents
    The initial contents for this registry are defined in the table
    below.
 
-   +======+========+============+========+==========+==+===+===========+
-   |Value |Name    | Publicly   |Public  | Private  |Nk|Nid| Reference |
-   |      |        | Verifiable |Metadata| Metadata |  |   |           |
-   +======+========+============+========+==========+==+===+===========+
-   |0x0000|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x02AA|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x1132|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x2E96|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x3CD3|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x4473|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x5A63|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x6D32|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x7F3F|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x8D07|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0x916B|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0xA6A4|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0xBEAB|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0xC3F3|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0xDA42|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0xE944|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
-   |0xF057|RESERVED| N/A        |N/A     | N/A      |N/|N/A| This      |
-   |      |        |            |        |          |A |   | document  |
-   +------+--------+------------+--------+----------+--+---+-----------+
+    +======+========+============+========+========+==+===+===========+
+    |Value |Name    | Publicly   |Public  |Private |Nk|Nid| Reference |
+    |      |        | Verifiable |Metadata|Metadata|  |   |           |
+    +======+========+============+========+========+==+===+===========+
+    |0x0000|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x02AA|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x1132|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x2E96|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x3CD3|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x4473|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x5A63|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x6D32|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x7F3F|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x8D07|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0x916B|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0xA6A4|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0xBEAB|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0xC3F3|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0xDA42|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0xE944|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
+    |0xF057|RESERVED| N/A        |N/A     |N/A     |N/|N/A| This      |
+    |      |        |            |        |        |A |   | document  |
+    +------+--------+------------+--------+--------+--+---+-----------+
 
                             Table 1: Token Types
 
@@ -620,30 +620,30 @@ Table of Contents
 6.2.  Informative References
 
    [ARCHITECTURE]
-              Davidson, A., Iyengar, J., and C. A. Wood, "Privacy Pass
-              Architectural Framework", Work in Progress, Internet-
-              Draft, draft-ietf-privacypass-architecture-05, 6 July
-              2022, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              privacypass-architecture-05>.
+              Davidson, A., Iyengar, J., and C. A. Wood, "The Privacy
+              Pass Architecture", Work in Progress, Internet-Draft,
+              draft-ietf-privacypass-architecture-14, 9 August 2023,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-
+              privacypass-architecture-14>.
 
-   [COOKIES]  Chen, L., Englehardt, S., West, M., and J. Wilander,
-              "Cookies: HTTP State Management Mechanism", Work in
-              Progress, Internet-Draft, draft-ietf-httpbis-rfc6265bis-
-              10, 24 April 2022, <https://datatracker.ietf.org/doc/html/
-              draft-ietf-httpbis-rfc6265bis-10>.
+   [COOKIES]  Bingler, S., West, M., and J. Wilander, "Cookies: HTTP
+              State Management Mechanism", Work in Progress, Internet-
+              Draft, draft-ietf-httpbis-rfc6265bis-12, 10 May 2023,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-
+              rfc6265bis-12>.
 
    [I-D.ietf-privacypass-architecture]
-              Davidson, A., Iyengar, J., and C. A. Wood, "Privacy Pass
-              Architectural Framework", Work in Progress, Internet-
-              Draft, draft-ietf-privacypass-architecture-05, 6 July
-              2022, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              privacypass-architecture-05>.
+              Davidson, A., Iyengar, J., and C. A. Wood, "The Privacy
+              Pass Architecture", Work in Progress, Internet-Draft,
+              draft-ietf-privacypass-architecture-14, 9 August 2023,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-
+              privacypass-architecture-14>.
 
-   [ISSUANCE] Celi, S., Davidson, A., Faz-Hernandez, A., Valdez, S., and
-              C. A. Wood, "Privacy Pass Issuance Protocol", Work in
-              Progress, Internet-Draft, draft-ietf-privacypass-protocol-
-              06, 6 July 2022, <https://datatracker.ietf.org/doc/html/
-              draft-ietf-privacypass-protocol-06>.
+   [ISSUANCE] Celi, S., Davidson, A., Valdez, S., and C. A. Wood,
+              "Privacy Pass Issuance Protocol", Work in Progress,
+              Internet-Draft, draft-ietf-privacypass-protocol-12, 16
+              August 2023, <https://datatracker.ietf.org/doc/html/draft-
+              ietf-privacypass-protocol-12>.
 
    [RFC8701]  Benjamin, D., "Applying Generate Random Extensions And
               Sustain Extensibility (GREASE) to TLS Extensibility",
